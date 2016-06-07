@@ -49,7 +49,7 @@ filedrop.Controller = function(Files, FileDialog, $mdDialog, $mdToast, $scope, $
   this.scope_ = $scope;
 
   /** @private {!angular.$window} */
-  this.window_ = $window
+  this.window_ = $window;
 
   /** @export {!Array.<!Object>} */
   this.files = [];
